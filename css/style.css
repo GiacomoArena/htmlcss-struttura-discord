@@ -153,16 +153,7 @@ footer{
   height: 95%;
   background-color: rgb(248, 234, 241);
 }
-/* .blocco-ending{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid gray;
-  width: 90%;
-  height: 60px;
-  margin: 10px auto;
 
-} */
 .ending-menu{
   display: flex;
   justify-content: space-between;
@@ -172,4 +163,11 @@ footer{
   align-items: flex-end;
   background-color: rgb(44, 38, 45);
   border-top: 1px solid rgb(255, 255, 255);
+}
+ul{
+  list-style-type: none;
+  padding-top: 60px;
+}
+ul li{
+  margin-top: 10px;
 }
