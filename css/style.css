@@ -12,11 +12,30 @@
 /* HEADER RULES*/
 .jumbotron{
   display: flex;
+  
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
   width: 90%;
+  height: 40px;    /*altezza fittizzia*/
   margin: 0 auto;
+  background-color: chocolate;
+}
+
+.logo{
+  display: flex;
+  width: 25%;
+
+}
+.link-title{
+  width: 50%;
 }
 
 
+.button-login{
+  width: 25%;
+}
 
 
 
