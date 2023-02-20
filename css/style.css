@@ -11,29 +11,39 @@
 
 /* HEADER RULES*/
 .jumbotron{
-  display: flex;
+  background-color: aquamarine;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   
 }
 .menu{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   width: 90%;
-  height: 40px;    /*altezza fittizzia*/
-  margin: 0 auto;
+  height: 40px;    /*misura fittizzia*/
+  margin: 0px auto;
   background-color: chocolate;
 }
 
 .logo{
-  display: flex;
   width: 25%;
 
 }
 .link-title{
+  display: flex;
+  justify-content: center;
   width: 50%;
+  
+}
+.link-title a{
+  padding-left: 15px;
 }
 
 
 .button-login{
+  display: flex;
+  justify-content: flex-end;
   width: 25%;
 }
 
